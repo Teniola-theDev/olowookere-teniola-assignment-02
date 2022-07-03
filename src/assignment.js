@@ -14,10 +14,10 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 let arrayOfNumbers = [1, 2, 3, 4, 5]
+let sum;
 let sumOfNumbers(arrayOfNumbers) = {
-  let sumOfNumbers = array.reduce(function(a, b){
-        return a + b;
-    }, 0);
+  sum =  arrayOfNumbers.reduce((x, y) => x + y);
+  return sum;
 }
 
 
