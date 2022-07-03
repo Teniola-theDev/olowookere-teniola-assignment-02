@@ -19,6 +19,7 @@ let sumOfNumbers(arrayOfNumbers) = {
   sum =  arrayOfNumbers.reduce((x, y) => x + y);
   return sum;
 }
+sumOfNumbers(arrayOfNumbers);
 
 
 // assignment.sumOfNumbers = sumOfNumbers;
