@@ -9,24 +9,45 @@ const assignment = {};
  * 
  * Calculate and return the sum of the numbers in an array.
  * If you did Challenge - 1, remove the comment in the line just after this function
- * 
- * @param {Array} arrayOfNumbers the array of numbers to sum
- * @returns number the sum of the numbers
- */
+
+ 
+* @param {Array} arrayOfNumbers the array of numbers to sum
+ *  @returns number the sum of the numbers
+*/
 
 
 
-let arrayOfNumbers = [1, 5, 7, 45, 66]
-let sumOfNumbers = function (arrayOfNumbers) {
+  const numbers = [
+        68,
+        -68,
+        27,
+        94,
+        72,
+        -25,
+        -51,
+        32,
+        10,
+        64,
+        -94,
+        4,
+        34,
+        -86,
+        90,
+        81,
+        20,
+        -56,
+        -91,
+        -50
+    ]
+let sumOfNumbers = function (numbers) {
   let sum = 0;
-  for (let i = 0; i < arrayOfNumbers.length; i++) {
-    sum += arrayOfNumbers[i]
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i]
   }
 return sum;
 }
-console.log(sumOfNumbers(arrayOfNumbers));
 
-// assignment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
