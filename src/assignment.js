@@ -15,16 +15,16 @@ const assignment = {};
  */
 
 
-let sum = 0;
+
 let arrayOfNumbers = [1, 5, 7, 45, 66]
 let sumOfNumbers = function (arrayOfNumbers) {
+  let sum = 0;
   for (let i = 0; i < arrayOfNumbers.length; i++) {
     sum += arrayOfNumbers[i]
-  
   }
 return sum;
 }
-sumOfNumbers(arrayOfNumbers);
+console.log(sumOfNumbers(arrayOfNumbers));
 
 // assignment.sumOfNumbers = sumOfNumbers;
 
